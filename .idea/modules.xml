@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/05.Spring-Boot-MyBatis-MultiDataSource/Spring-Boot-MyBatis-MultiDataSource.iml" filepath="$PROJECT_DIR$/05.Spring-Boot-MyBatis-MultiDataSource/Spring-Boot-MyBatis-MultiDataSource.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringAll.iml" filepath="$PROJECT_DIR$/.idea/SpringAll.iml" />
     </modules>
   </component>

@@ -1,6 +1,6 @@
 show databases;
-create database test;
-use test;
+create database 03SpringBootMyBatis;
+use 03SpringBootMyBatis;
 CREATE TABLE STUDENT (
     SNO VARCHAR(3) NOT NULL ,
     SNAME VARCHAR(9) NOT NULL ,

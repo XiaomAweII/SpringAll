@@ -6,6 +6,7 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.springboot.bean.Student;
@@ -17,6 +18,9 @@ public class TestController {
 	@Autowired
 	private StudentService studentService;
 
+	// @RequestMapping注解当中的第二个参数method=RequestMethod.GET指定这个方法所处理的HTTP请求类型
+	// method 参数用来限定该方法可以相应的HTTP请求方法
+	// RequestMethod.GET 是一个枚举值，表示该方法只处理HTTP GET请求
 	@RequestMapping(value = "/querystudent", method = RequestMethod.GET)
 	public Student queryStudentBySno(String sno) {
 		return this.studentService.queryStudentBySno(sno);
@@ -28,7 +32,7 @@ public class TestController {
 	}
 	
 	@RequestMapping(value = "/addstudent", method = RequestMethod.GET)
-	public int saveStudent(String sno,String name,String sex) {
+	public int saveStudent(@RequestParam("sno") String sno,@RequestParam("name") String name,@RequestParam("sex") String sex) {
 		Student student = new Student();
 		student.setSno(sno);
 		student.setName(name);

@@ -54,6 +54,7 @@
     <file url="file://$PROJECT_DIR$/34.Start-Spring-Security/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/35.Spring-Security-Authentication/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/36.Spring-Security-ValidateCode/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/37.Spring-Security-RememberMe/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/38.Spring-Security-SmsCode/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/39.Spring-Cloud-Zuul-Router/Eureka-Client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/39.Spring-Cloud-Zuul-Router/Feign-Consumer/src/main/java" charset="UTF-8" />
@@ -92,6 +93,9 @@
     <file url="file://$PROJECT_DIR$/53.Dubbo-High-Availability/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/55.Spring-Cloud-Consul/server-consumer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/55.Spring-Cloud-Consul/server-proivder/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/56.Spring-Boot-MongoDB-crud/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/57.Spring-Boot-WebFlux/webflux/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/58.Spring-Boot-WebFlux-crud/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/59.Spring-Security-SessionManager/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/60.Spring-Security-Logout/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/61.Spring-security-Permission/src/main/java" charset="UTF-8" />

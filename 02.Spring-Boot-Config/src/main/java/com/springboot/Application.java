@@ -17,7 +17,7 @@ public class Application {
 		SpringApplication app = new SpringApplication(Application.class);
 		// 关闭banner app.setBannerMode(Mode.OFF);
 		app.setBannerMode(Banner.Mode.OFF);
-//		app.setAddCommandLineProperties(false);
+		app.setAddCommandLineProperties(false);
 		app.run(args);
 	}
 }
